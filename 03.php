@@ -1,0 +1,23 @@
+<?php
+var_dump(1);
+echo "<br/>","boolean 1 : ";
+var_dump((boolean)1);
+echo "<br/>","(bool)2 : ";
+var_dump((bool)2);
+echo "<br/>","(bool)0 : ";
+var_dump((bool)0);
+echo "<br/>","(bool)-1 : ";
+var_dump((bool)-1);
+echo "<br/>","(bool)'' : ";
+var_dump((bool)"");
+echo "<br/>","(bool)-0.0 : ";
+var_dump((bool)-0.0);
+echo "<br/>","(bool)null : ";
+var_dump((bool)null);
+echo "<br/>","(bool)NULL : ";
+var_dump((bool)NULL);
+echo "<br/>","(bool)array() : ";
+var_dump((bool)array());
+echo "<br/>","(bool)false : ";
+var_dump((bool)false);
+echo "<br/>";
